@@ -2,12 +2,12 @@
 
 
 
-# Function that runs in clearnet and unshare
+# Function that runs in clearnet network namespace and unshare mount
 run_in_clearnet() {
 
     # Location of the proxy server and bashrc file
-    PROXY_SERVER="./socks5_proxy_server.py"
-    BASHRC="./bashrc"
+    PROXY_SERVER="./assets/socks5_proxy_server.py"
+    BASHRC="./assets/bashrc"
 
 
     # To make sure multiple terminals won't spawn multiple proxy servers

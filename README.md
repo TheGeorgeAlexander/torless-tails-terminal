@@ -11,26 +11,15 @@ This "Torless" feature is contained to the Bash shell it spawns. The rest of the
 ## How to use
 It is assumed you are running Tails. Running this program requires an administrator password. Be sure to set one up at the Welcome Screen you get when starting up Tails.
 
-You only have to do the setup once when you first download the files.
-
-### Setup
-1. Download this repository, you can do this with `git clone` or on GitHub by clicking `Code > Download ZIP`.
-
-2. Open a terminal and navigate into the folder that contains the files of this repository.
-
-3. Give the script permission to run by executing `chmod +x torless-tails-terminal.sh` in the terminal.
-
-### Running
-1. Start the Torless Tails Terminal by executing `./torless-tails-terminal.sh`.
-
-2. To close the terminal, execute `exit`.
+1. [Download this repository](https://github.com/TheGeorgeAlexander/torless-tails-terminal/archive/refs/heads/main.zip).
+2. Run `chmod +x torless-tails-terminal.sh` once to make it executable.
+3. Right-click on `torless-tails-terminal.sh` and click `Run as a Program`.
+4. To close the terminal, execute `exit` or close the window
 
 
 ---
 
-*See how Torless Tails Terminal is used after setup*
-
-![GIF showing usage in terminal](https://github.com/user-attachments/assets/84f1d200-3928-4d1f-9834-5e757b0b5971)
+![GIF showing how it is used](https://github.com/user-attachments/assets/a1bc3856-1667-411c-9454-bf2bef498a5b)
 
 ---
 
