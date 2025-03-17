@@ -13,7 +13,7 @@ run_in_clearnet() {
     # To make sure multiple terminals won't spawn multiple proxy servers
     LOCK_FILE="/var/run/torless_tails_terminal.lock"
 
-    # Function to start the proxy server if it isn't running
+    # Function that starts the proxy server if it isn't already running
     start_proxy_server() {
         if [ -f "$LOCK_FILE" ]; then
             read PID COUNTER < "$LOCK_FILE"
